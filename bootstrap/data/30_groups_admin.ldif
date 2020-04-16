@@ -1,7 +1,7 @@
-dn: cn=admin_staff,ou=people,dc=planetexpress,dc=com
+dn: cn=admin_staff,ou=people,dc=ldap,dc=ttic,dc=ca
 objectclass: Group
 objectclass: top
 groupType: 2147483650
 cn: admin_staff
-member: uid=professor,ou=people,dc=planetexpress,dc=com
-member: uid=hermes,ou=people,dc=planetexpress,dc=com
+member: uid=professor,ou=people,dc=ldap,dc=ttic,dc=ca
+member: uid=hermes,ou=people,dc=ldap,dc=ttic,dc=ca

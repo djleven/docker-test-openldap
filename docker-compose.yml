@@ -15,6 +15,9 @@ services:
             - '636:636'
         volumes:
             - data_volume:/var/lib/ldap/
-
+        environment:
+           - LDAP_DOMAIN=ldap.ttic.ca
+           - LDAP_ADMIN_PASSWORD=admin
+           - TLS_VERIFY_CLIENT=never
 volumes:
     data_volume:

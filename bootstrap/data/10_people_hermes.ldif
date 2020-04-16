@@ -1,4 +1,4 @@
-dn: uid=hermes,ou=people,dc=planetexpress,dc=com
+dn: uid=hermes,ou=people,dc=ldap,dc=ttic,dc=ca
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -9,7 +9,7 @@ description: Human
 employeeType: Bureaucrat
 employeeType: Accountant
 givenName: Hermes
-mail: hermes@planetexpress.com
+mail: hermes@ldap.ttic.ca
 ou: Office Management
 uid: hermes
 userPassword:: e3NzaGF9M3UzcUdCSmFMc2tiUEg0OVJrYlFtUk9HTktFb1lOUXZkU2lOZmc9P

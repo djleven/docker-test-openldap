@@ -4,10 +4,10 @@ set -eu
 readonly DATA_DIR="/bootstrap/data"
 readonly CONFIG_DIR="/bootstrap/config"
 
-readonly LDAP_DOMAIN=planetexpress.com
+readonly LDAP_DOMAIN=ldap.ttic.ca
 readonly LDAP_ORGANISATION="Planet Express, Inc."
-readonly LDAP_BINDDN="cn=admin,dc=planetexpress,dc=com"
-readonly LDAP_SECRET=GoodNewsEveryone
+readonly LDAP_BINDDN="cn=admin,dc=ldap,dc=ttic,dc=ca"
+readonly LDAP_SECRET=admin
 
 readonly LDAP_SSL_KEY="/etc/ldap/ssl/ldap.key"
 readonly LDAP_SSL_CERT="/etc/ldap/ssl/ldap.crt"
